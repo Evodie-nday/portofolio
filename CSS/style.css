@@ -97,7 +97,7 @@ body{
 
 .projects-section{
   padding: 60px 40px;
-  background-color: black;
+  background-color: #111;
   color: white;
 }
 
@@ -164,7 +164,7 @@ body{
 }
 
 .about-section{
-  background-color: black;
+  background-color: #111;
   padding: 50px;
 }
 
@@ -219,3 +219,38 @@ body{
   margin-top: 0;
   margin-bottom: 20px;
 }
+.contact-section{
+  padding: 50px;
+}
+.contact-flex{
+  display: flex;
+  gap: 40px;
+}
+.contact-image{
+  width: 50%;
+}
+.contact-text h2{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.contact-text p{
+  font-size: 16px; 
+}
+
+ .contact-section2{
+  padding: 50px;
+ }
+ .contact-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  align-items: flex-start;
+  margin: 0 auto;
+ }
+ .contact-item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+ }
+ 
